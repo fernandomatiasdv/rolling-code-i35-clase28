@@ -1,0 +1,46 @@
+Ejercitación de métodos.
+
+1. Convertí este texto "Ayudándonos a crecer" en mayúsculas y luego en minúsculas. Mostra por console.log los resultados.
+2. Crea una función que se llame multiplicaOsuma, en donde le pasarás 3 parámetros:
+	Los primeros dos son números.
+	El tercero puede ser "Es una multiplicación" o "Es una suma".
+Dependiendo de cuál le hayas pasado hará una o la otra (Usá uno o varios métodos, no apliques ( parametro3 === "Es una suma" ? )...
+3. Crea una función que reciba un parametro de tipo cadena de texto y reemplace a cada "a" por "o". Luego mostrá el resultado.
+4. Crea una función que devuelva la cantidad de caracteres que tiene el siguiente texto sin contar los espacios del inicio ni final:
+"                   La mar esta revuelta                                    "
+5. Crea una función que reciba dos parámetros: una letra y una leyenda. Devolverá del último caracter la posición en la que lo encontró. 
+Por ej: "Terma serrano con soda" , "s" => Devuelve 18
+6. A partir de este vector ["ramas", "ganas", "tramas"] uní a todos los elementos en un único vector. 
+Luego mostralo por consola a cada uno de ellos a partir del nuevo vector generado.
+7. Hacer una función que a partir de pasarle el siguiente vector [-1, 5, -3, 8] nos devuelva la cadena "Lo Encontré" si encuentra
+el valor 2, o "No lo encontré" sino lo hace.
+8. Tenemos el siguiente array de objetos:
+const habitantes = [
+{id: 1, ciudad: "San Salvador de Jujuy", poblacion: 97955},
+{id: 2, ciudad: "San Miguel de Tucuman", poblacion: 170318},
+{id: 3, ciudad: "Ciudad de Salta", poblacion: 630000},
+]
+Listá las keys sin repetir
+9. Cuál es la diferencia entre forEach y Map? (** Pregunta de entrevista técnica!)
+10. Tenemos el siguiente objeto:
+const tablaResultados = {
+	river: 15,
+	boca: 11,
+	racing: 20,
+	independiente: 3
+}
+Mostrá por console.log la leyenda "El equipo river tiene 15 puntos"
+"El equipo boca tiene 11 puntos", etc.
+11. Crea un sistema en el que ingresarás por prompt un valor. Cuando hayas ingresado la "S" el programa finalizará, mientras tanto que 
+vaya agregando en un vector los valores que vas ingresando.
+Cuando finalice:
+a. Que muestre la cantidad de elementos encontrados.
+b. Que muestre el contenido del vector en un único string, separados por un guión medio y un espacio entre palabra y palabra. 
+c. Si el array finaliza con la palabra "piza" que no lo agregue al string ni que aparezca su guión.
+12. Crea una función que reciba un vector de números y nos devuelva la cantidad de positivos, ceros y negativos.
+13. Crea un sistema en el que ingresarás  números por prompt. Cuando hayas ingresado una letra el programa finalizará, mientras tanto que 
+vaya agregando en un vector los valores que vas ingresando.
+Supongamos que ingresamos  5, 6, 7, 15, 1, 9, 99, "S" Cuando finalice mostralos de la siguiente manera:
+5 + 6 - 7 + 15 - 1 + 9 = 99
+Es decir, entre un número y otro habrá o un + o un -, intercambiando constantemente. Excepto el último que será un =
+Tene en cuenta que el último valor (que será una letra) no debe verse
